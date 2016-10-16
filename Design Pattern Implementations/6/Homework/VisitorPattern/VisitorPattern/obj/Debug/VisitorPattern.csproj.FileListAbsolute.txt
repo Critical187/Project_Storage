@@ -1,0 +1,18 @@
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\VisitorPattern\VisitorPattern\bin\Debug\VisitorPattern.exe.config
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\VisitorPattern\VisitorPattern\bin\Debug\VisitorPattern.exe
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\VisitorPattern\VisitorPattern\bin\Debug\VisitorPattern.pdb
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\VisitorPattern\VisitorPattern\obj\Debug\VisitorPattern.csprojResolveAssemblyReference.cache
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\VisitorPattern\VisitorPattern\obj\Debug\VisitorPattern.exe
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\VisitorPattern\VisitorPattern\obj\Debug\VisitorPattern.pdb
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\Homework\VisitorPattern\VisitorPattern\bin\Debug\VisitorPattern.exe.config
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\Homework\VisitorPattern\VisitorPattern\obj\Debug\VisitorPattern.exe
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\Homework\VisitorPattern\VisitorPattern\obj\Debug\VisitorPattern.pdb
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\Homework\VisitorPattern\VisitorPattern\bin\Debug\VisitorPattern.exe
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\Homework\VisitorPattern\VisitorPattern\bin\Debug\VisitorPattern.pdb
+E:\IMPORTANT!!! - s\Fontys\Second Year\Block 7\DPR\Week 5 Visitor Pattern\Homework\VisitorPattern\VisitorPattern\obj\Debug\VisitorPattern.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Homework\squl\DPR\6\Homework\VisitorPattern\VisitorPattern\bin\Debug\VisitorPattern.exe.config
+C:\Users\user\Desktop\Homework\squl\DPR\6\Homework\VisitorPattern\VisitorPattern\obj\Debug\VisitorPattern.exe
+C:\Users\user\Desktop\Homework\squl\DPR\6\Homework\VisitorPattern\VisitorPattern\obj\Debug\VisitorPattern.pdb
+C:\Users\user\Desktop\Homework\squl\DPR\6\Homework\VisitorPattern\VisitorPattern\bin\Debug\VisitorPattern.exe
+C:\Users\user\Desktop\Homework\squl\DPR\6\Homework\VisitorPattern\VisitorPattern\bin\Debug\VisitorPattern.pdb
+C:\Users\user\Desktop\Homework\squl\DPR\6\Homework\VisitorPattern\VisitorPattern\obj\Debug\VisitorPattern.csprojResolveAssemblyReference.cache

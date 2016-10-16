@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2013\Projects\Visitor\Visitor\bin\Debug\Visitor.exe.config
+c:\users\user\documents\visual studio 2013\Projects\Visitor\Visitor\obj\Debug\Visitor.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\Visitor\Visitor\obj\Debug\Visitor.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\Visitor\Visitor\obj\Debug\Visitor.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\Visitor\Visitor\bin\Debug\Visitor.exe
+C:\Users\user\Documents\Visual Studio 2013\Projects\Visitor\Visitor\bin\Debug\Visitor.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\Visitor\Visitor\obj\Debug\Visitor.ClientForm.resources
+C:\Users\user\Documents\Visual Studio 2013\Projects\Visitor\Visitor\obj\Debug\Visitor.exe
+C:\Users\user\Documents\Visual Studio 2013\Projects\Visitor\Visitor\obj\Debug\Visitor.pdb

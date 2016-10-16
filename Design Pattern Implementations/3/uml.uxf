@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>70</y>
+      <w>220</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ICarFactory&gt;&gt;
+--
++GetName() : String
++CreateLowBudgetCar() : Car
++CreateMediumBudgetCar() : Car
++CreateHighBudgetCar() : Car</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>0</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>BMWFactory
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>30</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;60.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>70</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>MercedesFactory
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>100</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>140</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>VWFactory
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>120</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>230</y>
+      <w>230</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>Car
+--
+-model : String
+-price : Integer
+-imageUrl : String
+-procuder : ICarFactory
+--
++GetImageURL() : String
++GetBrand() : String
++GetPrice() : Integer
++GetModel() : String
++GetDescription() : String
++GetProducer() : ICarFactory
+-SetImageUrl(url : Sring) : void
+-SetModel(model : String) : void
+-SetProducer(producer:ICarFactory) : void
+-SetPrice(price : Integer)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>230</y>
+      <w>310</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Form1
+--
+-comboBoxFactory : ComboBox
+-listViewCars : ListView
+-listViewOffers : ListView
+-lowBudgetPB : PictureBox
+-medBudgetPB : PictureBox
+-highBudgetPB : PictureBox
+-imageCache : Dictionary&lt;string,Image&gt;
+-selectableCars : Dictionary&lt;ListViewItem, Car&gt;
+--
+-GetSelectedFactory() : ICarFactory
+-BuyCar(pictureBox : PictureBox) : void
+-BuyCar(image : Image) : void
+-DownloadImage(url : String) : Image</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>330</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>100</x>
+      <y>150</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>200</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Get and Set methods are implemented using Properties
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>0</x>
+      <y>470</y>
+      <w>310</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>ListViewItem's Image corresponds to PictureBox's Image.
+All car images are stored in the image cache
+The lookup for car to buy is done by using the images and looking up the selectable cars and image cache
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>150</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;80.0</additional_attributes>
+  </element>
+</diagram>

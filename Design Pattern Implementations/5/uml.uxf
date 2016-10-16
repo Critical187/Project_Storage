@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.1">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>246</y>
+      <w>114</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>/Command {Abstract}/
+--
+-game : TicTacToeGame
+--
+ctor(game:TicTacToeGame)
+/+Execute():void/
+/+Undo():void/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>474</x>
+      <y>156</y>
+      <w>168</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>/PlayerCommand {Abstract}/
+--
+-player : Player
+--
+ctor(player:Player, game:TicTacToeGame)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>426</x>
+      <y>174</y>
+      <w>60</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>474</x>
+      <y>246</y>
+      <w>204</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>Player
+--
+-shape:Shape
+-color:Color
++OnRepresentationAltered(player Player):void event
+--
++ctor(shape:Shape, color:Color)
++ChangeColor(color:Color)
++ChangeShape(shape:Shape)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>708</x>
+      <y>258</y>
+      <w>114</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>/Shape {Abstract}/
+--
+/+Representation{get;} : char/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>522</x>
+      <y>198</y>
+      <w>18</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>672</x>
+      <y>264</y>
+      <w>48</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>342</x>
+      <y>354</y>
+      <w>216</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>TicTacToeGame
+--
+-player1 : Player
+-player2 : Player
+-currentPlayer : Player
+-Grid : Grid
+--
++Winner{get;} : Player
++HasWinner{get;} : bool
++ChangePlayerShapeTo(player:Player, shape:Shape)
++ChangePlayerColorTo(player:Player, color:Color)
++PlacePlayerShapeAt(player:player, row:int, column:int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>438</x>
+      <y>300</y>
+      <w>18</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>522</x>
+      <y>318</y>
+      <w>24</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>384</y>
+      <w>246</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Grid
+--
+-slots:Player[][]
++OnShapePlaced(shape:Shape, row:int, column:int):void event
+--
+PlaceShapeAt(row:int, column:int, player:Player)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>402</y>
+      <w>60</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>96</x>
+      <y>246</y>
+      <w>222</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>CommandController
+--
+-commands:Stack&lt;Command&gt;
++OnCommandExecuted(command:Command):void event
++OnCommandUndone(command:Command):void event
+--
+LastCommand{get;}:Command
++Execute(command:Command)
++Undo(command:Command)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>174</x>
+      <y>378</y>
+      <w>144</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Form1
+--
+-Game:TicTacToeGame
+-CommandController:CommandController
+--
+LastCommand{get;}:Command
++Execute(command:Command)
++Undo(command:Command)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>402</y>
+      <w>42</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>246</x>
+      <y>300</y>
+      <w>18</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>396</x>
+      <y>72</y>
+      <w>222</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>ChangePlayerShapeCommand
+--
+-shape:Shape
+--
+ctor(shape:Shape, player:Player, game:TicTacToeGame)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>150</x>
+      <y>72</y>
+      <w>240</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>PlacePlayerShapeCommand
+--
+-row:int
+-column:int
+--
+ctor(player:Player, row:int, column:int, game:TicTacToeGame)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>384</x>
+      <y>114</y>
+      <w>102</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>534</x>
+      <y>114</y>
+      <w>24</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>636</x>
+      <y>114</y>
+      <w>72</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>72</y>
+      <w>222</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>ChangePlayerColorCommand
+--
+-color:Color
+--
+ctor(color:Color, player:Player, game:TicTacToeGame)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>72</x>
+      <y>18</y>
+      <w>606</w>
+      <h>402</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>990.0;90.0;990.0;10.0;10.0;10.0;10.0;650.0;170.0;650.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>18</y>
+      <w>18</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>492</x>
+      <y>18</y>
+      <w>18</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>834</x>
+      <y>222</y>
+      <w>114</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>CircleShape
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>834</x>
+      <y>258</y>
+      <w>114</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>SquareShape
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>834</x>
+      <y>294</y>
+      <w>114</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>TriangleShape
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>834</x>
+      <y>330</y>
+      <w>114</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>XShape
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>834</x>
+      <y>192</y>
+      <w>114</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Nullhape
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>774</x>
+      <y>192</y>
+      <w>72</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>264</y>
+      <w>30</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>804</x>
+      <y>228</y>
+      <w>42</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>804</x>
+      <y>288</y>
+      <w>42</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>288</y>
+      <w>66</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>270</y>
+      <w>36</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

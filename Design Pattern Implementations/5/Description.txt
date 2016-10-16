@@ -1,0 +1,24 @@
+Site of referrence : http://www.blackwasp.co.uk/Command_1.aspx
+
+We have implemented the command pattern with the idea of a Tic-Tac-Toe game. The 'Commands' are : Placing a shape; changing a player's color; changing a player's shape. Every action done can be undone.
+The main Form has attached events to the buttons that create instances of the commands and pass them to the CommandController.
+The command controller keeps track of the actions done, allowing them to be later undone
+The Form is subsribed to each player's event for their representation change, it is subsribed to the Grid's on shape placed event and is also subsribed to the CommandController's onExecuted and onUndone events
+
++(PROS) -(CONS) of the pattern
++Control over execution of the code
++Iteratable collection of command execution can be extracted
+
+-Every action requires an object to hold it
+-Having to keep track of which actions are implemented and which not
+-Pattern is best suited for Void operations, otherwise casting would be necessary
+
+Things we found as flawed:
+It would be better to have the command not hold a reference to the Receiver, but have it passed as an argument
+That way the command is Implemented to work with ANY instance of a receiver -> Reducing the amount of objects spawned.
+
+It would be better to have the receiver instead of having a +Action() to have a +Action():Command
+Together with an instance variable in the Receiver of the Invoker it would allow
+instead of instantiating the commands and then to be passed to the CommandController, they would directly be instantiated in the +Action, assigned with the associated method, and passed directly to the invoker
+-> This would solve the issue with keeping track of which is implemented and which is not
+All OOP languages allow for this implementation.

@@ -1,0 +1,33 @@
+c:\users\user\documents\visual studio 2013\Projects\Observer\Observer\bin\Debug\Observer.exe.config
+c:\users\user\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.EarthQuake.resources
+c:\users\user\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.PullObserver.resources
+c:\users\user\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.PushObserver.resources
+c:\users\user\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\Observer\Observer\bin\Debug\Observer.exe
+c:\users\user\documents\visual studio 2013\Projects\Observer\Observer\bin\Debug\Observer.pdb
+c:\users\user\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.exe
+c:\users\user\documents\visual studio 2013\Projects\Observer\Observer\obj\Debug\Observer.pdb
+F:\Desktop\EDU\2016\squl\DPR\2\Observer\Observer\bin\Debug\Observer.exe.config
+F:\Desktop\EDU\2016\squl\DPR\2\Observer\Observer\obj\Debug\Observer.exe
+F:\Desktop\EDU\2016\squl\DPR\2\Observer\Observer\obj\Debug\Observer.pdb
+F:\Desktop\EDU\2016\squl\DPR\2\Observer\Observer\bin\Debug\Observer.exe
+F:\Desktop\EDU\2016\squl\DPR\2\Observer\Observer\bin\Debug\Observer.pdb
+F:\Desktop\EDU\2016\squl\DPR\2\Observer\Observer\obj\Debug\Observer.csprojResolveAssemblyReference.cache
+F:\Desktop\EDU\2016\squl\DPR\2\Observer\Observer\obj\Debug\Observer.EarthQuake.resources
+F:\Desktop\EDU\2016\squl\DPR\2\Observer\Observer\obj\Debug\Observer.Properties.Resources.resources
+F:\Desktop\EDU\2016\squl\DPR\2\Observer\Observer\obj\Debug\Observer.PullObserver.resources
+F:\Desktop\EDU\2016\squl\DPR\2\Observer\Observer\obj\Debug\Observer.PushObserver.resources
+F:\Desktop\EDU\2016\squl\DPR\2\Observer\Observer\obj\Debug\Observer.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Homework\squl\DPR\2\Observer\Observer\bin\Debug\Observer.exe.config
+C:\Users\user\Desktop\Homework\squl\DPR\2\Observer\Observer\obj\Debug\Observer.exe
+C:\Users\user\Desktop\Homework\squl\DPR\2\Observer\Observer\obj\Debug\Observer.pdb
+C:\Users\user\Desktop\Homework\squl\DPR\2\Observer\Observer\bin\Debug\Observer.exe
+C:\Users\user\Desktop\Homework\squl\DPR\2\Observer\Observer\bin\Debug\Observer.pdb
+C:\Users\user\Desktop\Homework\squl\DPR\2\Observer\Observer\obj\Debug\Observer.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Homework\squl\DPR\2\Observer\Observer\obj\Debug\Observer.EarthQuake.resources
+C:\Users\user\Desktop\Homework\squl\DPR\2\Observer\Observer\obj\Debug\Observer.Properties.Resources.resources
+C:\Users\user\Desktop\Homework\squl\DPR\2\Observer\Observer\obj\Debug\Observer.PullObserver.resources
+C:\Users\user\Desktop\Homework\squl\DPR\2\Observer\Observer\obj\Debug\Observer.PushObserver.resources
+C:\Users\user\Desktop\Homework\squl\DPR\2\Observer\Observer\obj\Debug\Observer.csproj.GenerateResource.Cache

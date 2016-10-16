@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>280</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>260</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+ISortAlgorithm
+--
++Sort(List&lt;int&gt; numbers) : void </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>270</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>SCAN
+--
++Sort(List&lt;int&gt; numbers) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>210</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>FCFS
+--
++Sort(List&lt;int&gt; numbers) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>220</y>
+      <w>140</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;40.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>330</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>SSTF
+--
++Sort(List&lt;int&gt; numbers) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>310</y>
+      <w>140</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>80</y>
+      <w>360</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>MainForm
+--
+-CurrentSelectedList {get;} : List&lt;int&gt;
+-exampleList1: List&lt;int&gt;
+-exampleList2: List&lt;int&gt;
+-exampleList3: List&lt;int&gt;
+--
+-ApplyAlgorithmAndDisplay(ISortAlgorithm type): void
+
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

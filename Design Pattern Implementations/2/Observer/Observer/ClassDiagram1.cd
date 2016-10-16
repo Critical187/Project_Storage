@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Observer.EarthQuake" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABJAIADAAAAIYQACAIICCAYiQAABAACCAABIEAAA=</HashCode>
+      <FileName>EarthQuake.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Observer.Program" Collapsed="true">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.PullObserver" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAAAAAAAACAAAACAAAgAQAAAAAAEgAAAQA=</HashCode>
+      <FileName>PullObserver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Observer.PushObserver" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAACAAABAAAACAAAACAAggAQAAAAAAEgAAAQA=</HashCode>
+      <FileName>PushObserver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Observer.Properties.Resources" Collapsed="true">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Properties.Settings" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Observer.IEarthQuake">
+    <Position X="1.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>IEarthQuake.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Observer.IPullObserver">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPullObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Observer.IPushObserver" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPushObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

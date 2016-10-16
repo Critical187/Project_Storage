@@ -1,0 +1,10 @@
+F:\Desktop\EDU\2016\squl\DPR\4\Decorator\Decorator\bin\Debug\Decorator.exe.config
+C:\Users\user\Desktop\Homework\squl\DPR\4\Decorator\Decorator\bin\Debug\Decorator.exe.config
+C:\Users\user\Desktop\Homework\squl\DPR\4\Decorator\Decorator\bin\Debug\Decorator.exe
+C:\Users\user\Desktop\Homework\squl\DPR\4\Decorator\Decorator\bin\Debug\Decorator.pdb
+C:\Users\user\Desktop\Homework\squl\DPR\4\Decorator\Decorator\obj\Debug\Decorator.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Homework\squl\DPR\4\Decorator\Decorator\obj\Debug\Decorator.CarShop.resources
+C:\Users\user\Desktop\Homework\squl\DPR\4\Decorator\Decorator\obj\Debug\Decorator.Properties.Resources.resources
+C:\Users\user\Desktop\Homework\squl\DPR\4\Decorator\Decorator\obj\Debug\Decorator.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Homework\squl\DPR\4\Decorator\Decorator\obj\Debug\Decorator.exe
+C:\Users\user\Desktop\Homework\squl\DPR\4\Decorator\Decorator\obj\Debug\Decorator.pdb
