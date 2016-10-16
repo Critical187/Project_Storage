@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\bin\Debug\TrafficLights.exe.config
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\obj\Debug\TrafficLights.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\obj\Debug\TrafficLights.MainForm.resources
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\obj\Debug\TrafficLights.Properties.Resources.resources
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\obj\Debug\TrafficLights.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\bin\Debug\TrafficLights.exe
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\bin\Debug\TrafficLights.pdb
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\obj\Debug\TrafficLights.exe
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\obj\Debug\TrafficLights.pdb
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\bin\Debug\WindowsBase.dll
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\obj\Debug\TrafficLights.RecycleManagerForm.resources
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\obj\Debug\TrafficLights.Manual.resources
+C:\Users\user\Desktop\ProCP\trafficLightsProCP\Code\TrafficLights\TrafficLights\obj\Debug\TrafficLights.SavedManagerForm.resources
